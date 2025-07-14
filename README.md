@@ -1,70 +1,63 @@
 # 🔗 ChainLinker  
-**Bringing Social Media to the Blockchain, Seamlessly**
+**Seamlessly Bridging Social Media and Blockchain**
 
 ## 🚀 Introduction
 
-**ChainLinker** is a browser-based Web3 agent that bridges your social media presence with blockchain functionality. It enables you to link wallets with platforms like Twitter, initiate transactions using social identities, and view portfolios—all through a streamlined interface.
+**ChainLinker** is a browser-based Web3 agent that connects your social media presence with blockchain functionality. It allows users to link crypto wallets with platforms like Twitter, initiate transactions using social identities, and manage portfolios through an intuitive, unified interface.
 
 ---
 
 ## 🧩 The Problem
 
-- We spend a significant part of our lives on social media, yet it remains isolated from blockchain ecosystems.  
-- Switching between wallets, networks, and apps creates fragmented workflows.  
-- Identity in Web3 is decentralized but not unified, slowing mainstream adoption.  
+- Social media platforms, where we spend significant time, remain disconnected from blockchain ecosystems.
+- Switching between wallets, networks, and applications creates fragmented and inefficient workflows.
+- Decentralized identity in Web3 lacks unification, hindering mainstream adoption.
 
 ---
 
 ## 💡 Why ChainLinker?
 
+ChainLinker simplifies and enhances your Web3 experience by offering:
+
 - **Social-Enabled Transactions**  
-  Link your crypto wallet with social handles (like Twitter) to perform on-chain operations.
+  Link your crypto wallet to social handles (e.g., Twitter) to perform seamless on-chain operations.
 
 - **Cross-Chain Templates**  
-  Save, reuse, and share transaction flows across different blockchains with one-click setup.
+  Save, reuse, and share transaction flows across multiple blockchains with one-click setup.
 
 - **Identity-Based Execution**  
-  Forget wallet addresses—send and receive tokens or interact with smart contracts using social IDs.
+  Interact with smart contracts or send/receive tokens using social IDs instead of complex wallet addresses.
 
 - **Unified Portfolio & Analytics**  
-  Get real-time insights into your crypto holdings and market trends from one dashboard.
+  Access real-time insights into your crypto holdings and market trends from a single, user-friendly dashboard.
 
 ---
 
 ## 🛠️ Tech Stack
 
 | Layer         | Technology                          |
-|---------------|--------------------------------------|
-| Frontend      | [Vite](https://vitejs.dev/)          |
-| Backend       | [Node.js](https://nodejs.org/)       |
-| Extension     | Browser-native Web3 extension        |
-| Chains        | Flow, Base-Sepolia, Starknet         |
+|---------------|-------------------------------------|
+| Frontend      | [Vite](https://vitejs.dev/)         |
+| Backend       | [Node.js](https://nodejs.org/)      |
+| Extension     | Browser-native Web3 extension       |
+| Blockchains   | Flow, Base-Sepolia, Starknet        |
 | Agent System  | [CDP AgentKit](https://github.com/contextual-dev/agentkit) |
 
 ---
 
 ## 🔮 Roadmap
 
-- 🔗 Add support for Discord, Lens, and other social identity systems  
-- 🌐 Expand compatibility to more blockchains  
-- ⚙️ Enable smart triggers based on social activity and wallet state  
-- 📈 Introduce predictive portfolio insights using AI  
+- 🔗 Integrate support for additional social platforms (e.g., Discord, Lens)  
+- 🌐 Expand compatibility to more blockchains (e.g., Ethereum, Solana)  
+- ⚙️ Implement smart triggers based on social activity and wallet state  
+- 📈 Introduce AI-driven predictive portfolio insights  
 
 ---
 
-## 🤝 Contribute
+## 🚀 Getting Started
 
-Pull requests and feedback are welcome! Whether you’re fixing a bug, adding a new feature, or improving documentation, we’d love your input. Fork this repo and open a PR!
+To start using ChainLinker:
 
----
-
-## 🛡️ License
-
-MIT License  
-Feel free to use, modify, and distribute with credit.
-
----
-
-## 📬 Contact
-
-For collaborations, reach out via Issues or email at: [youremail@example.com]
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/yourusername/chainlinker.git
