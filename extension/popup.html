@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Extension</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 350px; /* Wider popup */
+            height: 500px; /* Longer popup */
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        #twitter-container {
+            font-weight: bold;
+            background: #fff;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        #twitter-username {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        #data-list {
+            background: #fff;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-height: 350px;
+            overflow-y: auto;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            transition: 0.2s;
+        }
+
+        .item:hover {
+            background: #e0e0e0;
+        }
+
+        .key {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .value {
+            color: #555;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Extension Settings</h2>
+    <div id="twitter-container">
+        X.com Username: <span id="twitter-username">Loading...</span>
+    </div>
+    <!-- <div id="data-list"></div> -->
+
+    <div class="info">
+        <span class="label">UUID:</span>
+        <span class="value" id="user-id">Fetching...</span>
+        
+    </div>
+
+    <div class="info">
+        <span class="label">Wallet:</span>
+        <span class="value" id="wallet-address">Fetching...</span>
+       
+    </div>
+
+
+    <script src="popup.js"></script>
+</body>
+</html>
